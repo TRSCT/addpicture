@@ -1,0 +1,19 @@
+body, html {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    color: rgb(65, 27, 33);
+    background-color: rgb(233, 162, 174);
+}
+.LO {
+    color: rgb(186, 80, 96);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+}
+.img {
+    margin: 10px;
+    width: 300px;
+    height: 250px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
