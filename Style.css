@@ -24,3 +24,7 @@ body, html {
  /* padding = ขอบรอบๆของตัวหนังสือ
     margin = ระยะขอบกับตัวหนังสือ
     box-shadow แกนx แกนy ความเบลอ สีShadow */
+.Next {
+    border: 2px solid white;
+    border-radius: 25px;
+}
