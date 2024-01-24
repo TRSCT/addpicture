@@ -1,0 +1,50 @@
+body {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    color: rgb(65, 27, 33);
+    background-color: rgb(233, 162, 174);
+    text-shadow: 1px 1px 15px rgb(255, 209, 216);
+    font-family: ibm;
+}
+.LO {
+    color: rgb(186, 80, 96);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: 1px 1px 30px palevioletred;
+}
+.img {
+    
+    margin: 10px;
+    width: 300px;
+    height: 250px;
+    border: 2px solid white;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 1px 1px 15px rgb(209, 94, 138); 
+}
+
+ /* padding = ขอบรอบๆของตัวหนังสือ
+    margin = ระยะขอบกับตัวหนังสือ
+    box-shadow แกนx แกนy ความเบลอ สีShadow */
+.Next {
+    
+    color: rgb(136, 49, 63);
+    padding: 15px;
+    margin-bottom: 30px ;
+    border: 2px solid white;
+    border-radius: 25px;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+.Next:hover {
+    font-size: 20px;
+}
+@font-face {
+    font-family: ibm;
+    src: url(./IBMPlexSans-Medium.ttf);
+}
+
+.img:hover {
+    transform: scale(1.2);
+}
