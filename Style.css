@@ -16,6 +16,7 @@ body, html {
     margin: 10px;
     width: 300px;
     height: 250px;
+    transition: all 0.4s;
     border: 2px solid white;
     border-radius: 50px;
     box-shadow: 1px 1px 15px rgb(209, 94, 138); 
@@ -23,8 +24,20 @@ body, html {
 
  /* padding = ขอบรอบๆของตัวหนังสือ
     margin = ระยะขอบกับตัวหนังสือ
-    box-shadow แกนx แกนy ความเบลอ สีShadow */
-.Next {
+    box-shadow แกนx แกนy ความเบลอ สีShadow
+    ลบเส้นใต้ ขีดเส้นใต้ */
+.next {
+    text-decoration: none; 
+    padding: 1%;
+    color: rgb(204, 47, 99);
+    transition: all 0.4s;
     border: 2px solid white;
-    border-radius: 25px;
+    border-radius: 20px;
+}
+
+.next:hover {
+    font-size: xx-large;
+}
+.img:hover {
+    transform: scale(1.2);
 }
